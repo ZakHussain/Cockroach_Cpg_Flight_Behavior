@@ -1,0 +1,19 @@
+%%
+% generate the Pearson coefficients for cockroach CPG flight 
+% data
+
+% Normal flight patterns
+x = "
+pearson(Normal2,Normal4)
+pearson(Normal3,Normal5)
+pearson(Normal4,Normal5)
+
+% Pitched flight patterns
+pearson(Pitch2,Pitch4)
+pearson(Pitch3,Pitch5)
+pearson(Pitch4,Pitch5)
+
+% Rolled flight patterns
+pearson(Roll2,Roll4)
+pearson(Roll3,Roll5)
+pearson(Roll4,Roll5)

@@ -1,0 +1,20 @@
+% These are the command window lines that I called to 
+% generate the Fourier transforms of my data
+%% Normal Flight
+plotfreq(Normal2)
+plotfreq(Normal3)
+plotfres(Normal4)
+plotfreq(Normal5)
+
+%% pitched flight 
+plotfreq(Pitch2)
+plotfreq(Pitch3)
+plotfreq(Pitch4)
+plotfreq(Pitch5)
+
+%% Rolled Flight
+plotfreq(Roll2)
+plotfreq(Roll3)
+plotfreq(Roll4)
+plotfreq(Roll5)
+
